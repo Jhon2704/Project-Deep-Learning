@@ -1,0 +1,20 @@
+🎯 Advancing AI in Healthcare: Brain Tumor Detection Project 🧠💡
+I’m excited to share my latest personal project! I’m working on developing a deep learning pipeline to improve the speed and accuracy of detecting and localizing brain tumors from MRI scans. Early diagnosis can save lives and significantly reduce healthcare costs, especially in cancer treatment.
+🚀 Objective
+ To build a system capable of distinguishing between patients with and without tumors and accurately localizing the tumor regions.
+🛠️ Tools and Libraries
+ I’m using a range of tools to handle data, build models, and evaluate results:
+Data Manipulation: Pandas, NumPy
+Visualization: Seaborn, Matplotlib, Plotly
+Deep Learning: TensorFlow, Keras
+Image Processing: OpenCV, Skimage
+Metrics: Custom metrics like Dice Coefficient, Tversky Index, and Focal Tversky Loss
+🏗️ Architectures in Progress
+ResNet Classifier: To classify MRI scans (tumor vs. no tumor).
+ResUNet Segmentation Model: To precisely detect tumor locations at the pixel level.
+📊 Metrics Used
+For Classification: Accuracy, F1-Score, and Confusion Matrix.
+For Segmentation: Dice Coefficient and Tversky Index for measuring overlap accuracy and penalizing errors effectively.
+💻 Dataset
+ I’m working with a dataset of approximately 4,000 MRI scans with annotations marking tumor locations, which provides an excellent opportunity to experiment with both classification and segmentation tasks.
+This solo project has been an incredible learning experience, combining data science, deep learning, and healthcare applications. I’m looking forward to refining the models further and exploring their potential in real-world scenarios.
